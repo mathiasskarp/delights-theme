@@ -82,6 +82,3 @@ delights/
 
 <h2>📜 Licens</h2>
 <p>Detta tema är fritt att använda och modifiera. Se eventuella licenskrav för tredjepartsbibliotek som Tailwind CSS och ACF.</p>
-
-<hr>
-<p><em>Lycka till med Delights WordPress-tema! Har du förslag på förbättringar? Skicka gärna en Pull Request.</em></p>
