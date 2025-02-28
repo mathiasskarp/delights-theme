@@ -1,5 +1,5 @@
 # delights-theme
-Delights WordPress Theme
+<h1>Delights WordPress Theme</h1>
 
 Ett modernt, responsivt WordPress-tema byggt för brunch-, café- eller restaurangverksamheter. Delights-temat är utvecklat enligt WordPress bästa praxis, använder Tailwind CSS för styling och har ACF-integrering för att göra olika sektioner enkla att uppdatera i adminpanelen.
 
