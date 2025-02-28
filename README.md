@@ -74,19 +74,12 @@ delights/
 
 <h2 id="utveckling">👨‍💻 Utveckling och Anpassning</h2>
 <ol>
-    <li><strong>Clona eller ladda ner temat:</strong> <br>
+    <li><strong>Klona eller ladda ner temat:</strong> <br>
         <code>git clone https://github.com/[ditt-github-användarnamn]/delights-theme.git</code>
     </li>
     <li><strong>Byt ut bilder & text:</strong> Lägg dina egna bilder i <code>assets/images/</code>.</li>
     <li><strong>Styling:</strong> Tailwind laddas via CDN i <code>functions.php</code>.</li>
 </ol>
-
-<h2 id="support">📧 Support & Kontakt</h2>
-<p>Har du frågor eller behöver support kring <strong>Delights-temat</strong>? Kontakta mig via:</p>
-<ul>
-    <li><strong>E-post:</strong> <a href="mailto:exempel@domän.se">exempel@domän.se</a></li>
-    <li><strong>GitHub Issues:</strong> Skapa en <em>Issue</em> i detta repository.</li>
-</ul>
 
 <h2>📜 Licens</h2>
 <p>Detta tema är fritt att använda och modifiera. Se eventuella licenskrav för tredjepartsbibliotek som Tailwind CSS och ACF.</p>
