@@ -75,7 +75,7 @@ delights/
 <h2 id="utveckling">👨‍💻 Utveckling och Anpassning</h2>
 <ol>
     <li><strong>Klona eller ladda ner temat:</strong> <br>
-        <code>git clone https://github.com/[ditt-github-användarnamn]/delights-theme.git</code>
+        <code>git clone https://github.com/mathiasskarp/delights-theme.git</code>
     </li>
     <li><strong>Byt ut bilder & text:</strong> Lägg dina egna bilder i <code>assets/images/</code>.</li>
     <li><strong>Styling:</strong> Tailwind laddas via CDN i <code>functions.php</code>.</li>
