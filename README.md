@@ -67,8 +67,8 @@ delights/
 <h2 id="acf">⚡ ACF-konfiguration</h2>
 <ul>
     <li><strong>Hero Block:</strong> <code>hero_bild</code>, <code>hero_rubrik</code>, <code>hero_underrubrik</code>, <code>hero_knapp_text</code></li>
+   <li><strong>Om oss:</strong> <code>om_oss_rubrik</code>, <code>om_oss_text</code>, <code>om_oss_bild</code></li>
     <li><strong>Food Images:</strong> <code>food_upper_image_1</code>, <code>food_upper_image_2</code>, <code>food_lower_image_1</code>, <code>food_lower_image_2</code>, <code>food_lower_image_3</code></li>
-    <li><strong>Om oss:</strong> <code>om_oss_rubrik</code>, <code>om_oss_text</code>, <code>om_oss_bild</code></li>
 </ul>
 
 <h2 id="utveckling">👨‍💻 Utveckling och Anpassning</h2>
