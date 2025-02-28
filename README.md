@@ -13,7 +13,6 @@
     <li><a href="#struktur">Struktur</a></li>
     <li><a href="#acf">ACF-konfiguration</a></li>
     <li><a href="#utveckling">Utveckling och Anpassning</a></li>
-    <li><a href="#support">Support & Kontakt</a></li>
 </ul>
 
 <h2 id="oversikt">🎨 Översikt</h2>
