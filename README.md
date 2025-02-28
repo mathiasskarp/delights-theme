@@ -31,7 +31,7 @@
     <li>WordPress 5.9 eller senare</li>
     <li>PHP 7.4 eller senare (helst 8.0+)</li>
     <li>Advanced Custom Fields (ACF) installerat</li>
-    <li>Tailwind CSS (laddas in via CDN eller lokalt beroende på konfiguration)</li>
+    <li>Tailwind CSS (laddas in via CDN)</li>
 </ul>
 
 <h2 id="funktioner">🚀 Funktioner</h2>
