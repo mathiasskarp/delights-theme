@@ -35,7 +35,7 @@ $lower_image_3_alt = !empty($lower_image_3['alt']) ? esc_attr($lower_image_3['al
       <!-- Övre raden: 
            - 1 kolumn på mobil (sm) 
            - 2 kolumner på surfplatta (md) 
-           - 2.5fr / 1.5fr på desktop (lg) för ~75/25-fördelning -->
+           - 2.5fr / 1.5fr på desktop (lg) för 75/25-fördelning -->
       <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-[2.5fr_1.5fr]">
         
         <!-- Första bilden (75%) -->
