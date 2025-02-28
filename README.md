@@ -7,7 +7,6 @@
 <h2>📌 Innehållsförteckning</h2>
 <ul>
     <li><a href="#oversikt">Översikt</a></li>
-    <li><a href="#installation">Installation</a></li>
     <li><a href="#krav">Krav</a></li>
     <li><a href="#funktioner">Funktioner</a></li>
     <li><a href="#struktur">Struktur</a></li>
@@ -16,15 +15,7 @@
 </ul>
 
 <h2 id="oversikt">🎨 Översikt</h2>
-<p>Delights-temat är en one-pager inspirerad av brunch- och matupplevelser. 
-   Det inkluderar en anpassad hero-sektion, en sektion för “Om oss”, ett matgalleri och en flexibel footer.</p>
-
-<h2 id="installation">📥 Installation</h2>
-<ol>
-    <li><strong>Ladda ner temat:</strong> Antingen klona detta repo eller ladda ner ZIP-filen.</li>
-    <li><strong>Placera i din WordPress-installation:</strong> Lägg mappen <code>delights</code> i <code>wp-content/themes/</code>.</li>
-    <li><strong>Aktivera temat:</strong> Gå till <em>Utseende → Teman</em> i WordPress och aktivera <strong>Delights</strong>.</li>
-</ol>
+<p>Delights-temat är en one-pager inspirerad av brunch- och matupplevelser. </p>
 
 <h2 id="krav">⚙️ Krav</h2>
 <ul>
@@ -38,8 +29,6 @@
 <ul>
     <li>Responsivt med Tailwind CSS</li>
     <li>ACF-integration för anpassning via adminpanelen</li>
-    <li>Modern och minimalistisk design</li>
-    <li>Flexibla sektioner och komponenter</li>
 </ul>
 
 <h2 id="struktur">📁 Struktur</h2>
