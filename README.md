@@ -8,6 +8,7 @@
 <ul>
     <li><a href="#oversikt">Översikt</a></li>
     <li><a href="#krav">Krav</a></li>
+    <li><a href="#installation">Installation</a></li>
     <li><a href="#funktioner">Funktioner</a></li>
     <li><a href="#struktur">Struktur</a></li>
     <li><a href="#acf">ACF-konfiguration</a></li>
@@ -15,7 +16,7 @@
 </ul>
 
 <h2 id="oversikt">🎨 Översikt</h2>
-<p>Delights-temat är en one-pager inspirerad av brunch- och matupplevelser. </p>
+<p>Delights-temat är en one-pager inspirerad av brunch- och matupplevelser.</p>
 
 <h2 id="krav">⚙️ Krav</h2>
 <ul>
@@ -25,15 +26,46 @@
     <li>Tailwind CSS (laddas in via CDN)</li>
 </ul>
 
+<h2 id="installation">📥 Installation</h2>
+<p>Följ dessa steg för att installera och aktivera temat korrekt:</p>
+
+<h3>1️⃣ Ladda ner och aktivera temat</h3>
+<ol>
+    <li>Klona eller ladda ner temat från GitHub:</li>
+    <pre><code>git clone https://github.com/mathiasskarp/delights-theme.git</code></pre>
+    <li>Flytta mappen <code>delights</code> till <code>wp-content/themes/</code> i din WordPress-installation.</li>
+    <li>Gå till WordPress adminpanel → <em>Utseende → Teman</em>.</li>
+    <li>Aktivera <strong>Delights</strong>-temat.</li>
+</ol>
+
+<h3>2️⃣ Installera ACF</h3>
+<ol>
+    <li>Gå till WordPress adminpanel → <em>Plugins → Lägg till nytt</em>.</li>
+    <li>Sök efter <strong>Advanced Custom Fields</strong>.</li>
+    <li>Installera och aktivera pluginet.</li>
+</ol>
+
+<h3>3️⃣ Importera ACF-fälten</h3>
+<p>För att Food Images-sektionen ska kunna redigeras korrekt, behöver ACF-fälten importeras.</p>
+<ol>
+    <li>Gå till WordPress adminpanel → <em>ACF → Verktyg</em>.</li>
+    <li>Klicka på <strong>Importera fältgrupper</strong>.</li>
+    <li>Ladda upp filen <code>acf/acf-export.json</code> som finns i temamappen.</li>
+    <li>Klicka på <strong>Importera</strong>.</li>
+</ol>
+<p>Nu är ACF-fälten korrekt installerade och du kan redigera Food Images-sektionen i WordPress-admin!</p>
+
 <h2 id="funktioner">🚀 Funktioner</h2>
 <ul>
     <li>Responsivt med Tailwind CSS</li>
-    <li>ACF-integration för anpassning via adminpanelen</li>
+    <li>ACF-integration för anpassning av matbilder via adminpanelen</li>
 </ul>
 
 <h2 id="struktur">📁 Struktur</h2>
 <pre>
 delights/
+├── acf/
+│   ├── acf-export.json  <-- ACF-fälten för import
 ├── assets/
 │   ├── images/
 │   └── ...
@@ -70,12 +102,12 @@ delights/
 
 <h2 id="utveckling">👨‍💻 Utveckling och Anpassning</h2>
 <ol>
-    <li><strong>Klona eller ladda ner temat:</strong> <br>
-        <code>git clone https://github.com/mathiasskarp/delights-theme.git</code>
-    </li>
     <li><strong>Byt ut bilder & text:</strong> Lägg dina egna bilder i <code>assets/images/</code>.</li>
     <li><strong>Styling:</strong> Tailwind laddas via CDN i <code>functions.php</code>.</li>
 </ol>
 
 <h2>📜 Licens</h2>
 <p>Detta tema är fritt att använda och modifiera. Se eventuella licenskrav för tredjepartsbibliotek som Tailwind CSS och ACF.</p>
+
+</body>
+</html>
