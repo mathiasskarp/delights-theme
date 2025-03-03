@@ -1,7 +1,7 @@
 # delights-theme
 <h1>Delights WordPress Theme</h1>
-<p>Delights är ett modernt, responsivt WordPress-tema byggt för brunch-, café- och restaurangverksamheter. 
-   Det är utvecklat enligt WordPress bästa praxis, använder Tailwind CSS för styling och har ACF-integrering 
+<p>Delights är ett responsivt WordPress-tema byggt för brunch-, café- och restaurangverksamheter. 
+   Temat använder Tailwind CSS för styling och har ACF-integrering 
    för att göra olika sektioner enkla att uppdatera i adminpanelen. <strong>Temat är utvecklat som ett arbetsprov för Peach webbyrå.</strong></p>
 
 <h2>📌 Innehållsförteckning</h2>
@@ -54,10 +54,18 @@ delights/
 </pre>
 
 <h2 id="acf">⚡ ACF-konfiguration</h2>
+<p><strong>Food Images-sektionen kan uppdateras genom Advanced Custom Fields (ACF).</strong></p>
+
 <ul>
-    <li><strong>Hero Block:</strong> <code>hero_bild</code>, <code>hero_rubrik</code>, <code>hero_underrubrik</code>, <code>hero_knapp_text</code></li>
-   <li><strong>Om oss:</strong> <code>om_oss_rubrik</code>, <code>om_oss_text</code>, <code>om_oss_bild</code></li>
-    <li><strong>Food Images:</strong> <code>food_upper_image_1</code>, <code>food_upper_image_2</code>, <code>food_lower_image_1</code>, <code>food_lower_image_2</code>, <code>food_lower_image_3</code></li>
+    <li><strong>Food Images:</strong> 
+        <ul>
+            <li><code>food_upper_image_1</code> - Övre stora bilden</li>
+            <li><code>food_upper_image_2</code> - Övre högra bilden</li>
+            <li><code>food_lower_image_1</code> - Nedre vänstra bilden</li>
+            <li><code>food_lower_image_2</code> - Nedre mittenbilden</li>
+            <li><code>food_lower_image_3</code> - Nedre högra bilden</li>
+        </ul>
+    </li>
 </ul>
 
 <h2 id="utveckling">👨‍💻 Utveckling och Anpassning</h2>
